@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Content/styles.css" />
+	<link rel="stylesheet" type="text/css" href="Content/media.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<title>Task Manager</title>
+</head>
+<body>
+
+	<header>
+		<img src="Images/logo.png" class="logo_image" />
+		<div class="header_logo"><a href="#">Task Manager</a></div>
+		<nav>
+			<div class="info">
+				<img src="Images/info_ic.png" class="info_img" />
+				<p>Добавьте новые задания, используя форму регистрации, и перетащите новые задания в любую колонку. Новые задания автоматически будут перемещены в колонку "Несделанные".</p>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section class="main_search">
+			<div class="search">
+				<input type="text" name="search" placeholder="Описание задания" />
+				<button>+ Добавить</button>
+			</div>
+		</section>
+
+		<section class="main_section">
+			<div class="wrapper">
+				<div class="tasks_panel">
+					<div class="tasks_card">
+						<h2>Несделанные<span>(3)</span></h2>
+
+						<div class="card">
+							<h4>Задача #1</h4>
+
+							<p>Подготовьте категории навыков для соревнований.</p>
+
+							<div class="buttons">
+								<a href="#"><img src="Images/edit_ic.png" class="ic"></a>
+								<a href="#"><img src="Images/remove_ic.png" class="ic"></a>
+							</div>
+						</div>
+
+						<div class="card">
+							<h4>Задача #5</h4>
+
+							<p>Установить соединение с удаленной бд.</p>
+
+							<div class="buttons">
+								<a href="#"><img src="Images/edit_ic.png" class="ic"></a>
+								<a href="#"><img src="Images/remove_ic.png" class="ic"></a>
+							</div>
+						</div>
+
+						<div class="card">
+							<h4>Задача #7</h4>
+
+							<p>Свзязаться с заказчиком для уточнения правок.</p>
+
+							<div class="buttons">
+								<a href="#"><img src="Images/edit_ic.png" class="ic"></a>
+								<a href="#"><img src="Images/remove_ic.png" class="ic"></a>
+							</div>
+						</div>
+					</div>
+					<div class="tasks_card">
+						<h2>В процессе<span>(1)</span></h2>
+
+						<div class="card">
+							<h4>Задача #6</h4>
+
+							<p>Реализовать мобильное приложение на Java.</p>
+
+							<div class="buttons">
+								<a href="#"><img src="Images/edit_ic.png" class="ic"></a>
+								<a href="#"><img src="Images/remove_ic.png" class="ic"></a>
+							</div>
+						</div>
+					</div>
+					<div class="tasks_card">
+						<h2>Сделанные<span>(2)</span></h2>
+
+						<div class="card">
+							<h4>Задача #11</h4>
+
+							<p>Сверстать сайт.</p>
+
+							<div class="buttons">
+								<a href="#"><img src="Images/edit_ic.png" class="ic"></a>
+								<a href="#"><img src="Images/remove_ic.png" class="ic"></a>
+							</div>
+						</div>
+
+						<div class="card">
+							<h4>Задача #12</h4>
+
+							<p>Написать бэкэнд.</p>
+
+							<div class="buttons">
+								<a href="#"><img src="Images/edit_ic.png" class="ic"></a>
+								<a href="#"><img src="Images/remove_ic.png" class="ic"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+		<footer>
+		<div class="copyright">
+			<p>WorldSkills Russia 2019 TaskManager</p>
+			<p class="copy" style="font-size: small;">&copy; Гончаров Андрей, группа 181-321</p>
+		</div>
+	</footer>
+</body>
+</html>
